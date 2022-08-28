@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
-    "dev": "webpack --mode development"
+    "dev": "webpack --config webpack.config.dev.js"
   },
   "repository": {
     "type": "git",
@@ -35,7 +35,7 @@
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.1",
-    "nstall": "^0.2.0",
+    "install": "^0.2.0",
     "stylus": "^0.59.0",
     "stylus-loader": "^7.0.0",
     "terser-webpack-plugin": "^5.3.5",
